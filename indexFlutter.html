@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+    <!--!Change logo .... at girl at linkedIn  -->
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Aya | Junior Flutter Developer</title>
+</head>
+
+<body class="dark-theme">
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Aya</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">My portfolio</a>
+                        <!--! My portfolio | projects |work -->
+                    </li>
+                </ul>
+                <i class="ri-close-line nav__close" id="nav-close">
+          <img src="./assets/img/close.png" alt="" srcset="" width="16"
+            style="filter: invert(100%) sepia(2%) saturate(828%) hue-rotate(199deg) brightness(114%) contrast(87%);">
+        </i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line">
+          <img src="./assets/img/menu.png" alt="" srcset="" width="32"
+            style="filter: invert(100%) sepia(2%) saturate(828%) hue-rotate(199deg) brightness(114%) contrast(87%);">
+
+        </i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__data">
+                    <h1 class="home__data-title">
+                        Hi, <br /> I'm <span>Aya</span>
+                    </h1>
+                    <h4 class="home__data-subtitle">Flutter Developer
+                    </h4>
+                    <a href="http://" target="_blank" class="button">Download Cv</a>
+                    <!--! Add Link Drive CV  -->
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/lap.jpeg" alt="" class="home__image" />
+                        <!-- ! Add linkedIn image  -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/lap.jpeg" alt="" class="home__image" />
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">About me</h2>
+                    <p class="about__description">
+                        <!-- ! Add to cv   -->
+                        As a software engineer, I've worked on Flutter projects before. I am skilled in utilizing APIs and am aware of how to retrieve data by HTTP or Dio. I write code that makes use of the MVC or MVVM structure, and I have expertise working with databases and
+                        designing user interfaces that are both responsive and well-designed. Also, I have created a payment project and connected Firebase for OTP and notifications. I understand shared preferences and make good use of them. I am able
+                        to use Cubit for state management and implement language changes and theme customization in applications.
+                        <!-- I am a software engineer with experience in developing Flutter projects. I am proficient in working with
+            APIs and know how to fetch data using Dio or HTTP. I utilize the MVC or MVVM structure in my code, and I
+            have experience with databases and creating
+            responsive, high-quality user interfaces. Additionally, I have developed a payment project and integrated
+            Firebase for notifications and OTP. I am familiar with shared preferences and use them effectively. I can
+            implement language
+            changes and theme customization in applications, and for state management, I use Cubit. -->
+                    </p>
+                </div>
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <a href="https://github.com/AyaAbdElmoneim158" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/icons/github.png" alt="" srcset="" width="16" class="social "></a>
+                    </div>
+                    <div class="contact__content">
+                        <a href="https://www.linkedin.com/in/aya-abd-elmoneim-b75546221/" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/icons/linkedin.png" alt="" srcset="" width="16" class="social "></a>
+                    </div>
+                    <!-- <div class="contact__content">
+                        <a href="https://github.com/AyaAbdElmoneim158" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/icons/leetcode.svg" alt="" srcset="" width="16" class="social "></a>
+                    </div> -->
+                    <div class="contact__content">
+                        <a href="mailto: ayaabdelmon@gmail.com " target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/icons/email.png" alt="" srcset="" width="16" class="social "></a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== projects ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">My portfolio</h2>
+            <!--!~> what seeWork write -->
+            <p class="discover__description">This is some work </p>
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+
+
+                    <!--?==================== App ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/projects/recipe/05.jpg" class="discover__img" style="width: 100%;height: inherit;">
+                        <div class="discover__data">
+                            <h2 class="discover__title">title App?</h2>
+                            <!--! link to Get ....  https://github.com/AyaAbdElmoneim158/ecommerce_app -->
+                            <a href="github link" target="_blank" rel="noopener noreferrer">
+                                <button class="button button--flex discover__button" id="discover-button">
+                  <i class="ri-play-line video__button-icon" id="video-icon">See here</i>
+                </button></a>
+                        </div>
+                    </div>
+                    <!--?==================== App ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/projects/recipe/05.jpg" class="discover__img" style="width: 100%;height: inherit;">
+                        <div class="discover__data">
+                            <h2 class="discover__title">title App?</h2>
+                            <!--! link to Get ....  https://github.com/AyaAbdElmoneim158/ecommerce_app -->
+                            <a href="github link" target="_blank" rel="noopener noreferrer">
+                                <button class="button button--flex discover__button" id="discover-button">
+                <i class="ri-play-line video__button-icon" id="video-icon">See here</i>
+              </button></a>
+                        </div>
+                    </div>
+                    <!--?==================== App ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/projects/recipe/05.jpg" class="discover__img" style="width: 100%;height: inherit;">
+                        <div class="discover__data">
+                            <h2 class="discover__title">title App?</h2>
+                            <!--! link to Get ....  https://github.com/AyaAbdElmoneim158/ecommerce_app -->
+                            <a href="github link" target="_blank" rel="noopener noreferrer">
+                                <button class="button button--flex discover__button" id="discover-button">
+              <i class="ri-play-line video__button-icon" id="video-icon">See here</i>
+            </button></a>
+                        </div>
+                    </div>
+                    <!--?==================== App ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/projects/recipe/05.jpg" class="discover__img" style="width: 100%;height: inherit;">
+                        <div class="discover__data">
+                            <h2 class="discover__title">title App?</h2>
+                            <!--! link to Get ....  https://github.com/AyaAbdElmoneim158/ecommerce_app -->
+                            <a href="github link" target="_blank" rel="noopener noreferrer">
+                                <button class="button button--flex discover__button" id="discover-button">
+              <i class="ri-play-line video__button-icon" id="video-icon">See here</i>
+            </button></a>
+                        </div>
+                    </div>
+                    <!--?==================== App ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="./assets/img/projects/recipe/05.jpg" class="discover__img" style="width: 100%;height: inherit;">
+                        <div class="discover__data">
+                            <h2 class="discover__title">title App?</h2>
+                            <!--! link to Get ....  https://github.com/AyaAbdElmoneim158/ecommerce_app -->
+                            <a href="github link" target="_blank" rel="noopener noreferrer">
+                                <button class="button button--flex discover__button" id="discover-button">
+              <i class="ri-play-line video__button-icon" id="video-icon">See here</i>
+            </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <!-- <i class="ri-arrow-up-line scrollup__icon"></i> -->
+        <img src="./assets/img/arrow.png" alt="" srcset="" width="16" style="filter: invert(100%) sepia(2%) saturate(828%) hue-rotate(199deg) brightness(114%) contrast(87%);">
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
